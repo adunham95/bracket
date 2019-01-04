@@ -1,0 +1,29 @@
+.customBracket {
+  display: -ms-flexbox;
+  display: flex;
+  -ms-flex-pack: justify;
+      justify-content: space-between;
+  width: 100%; }
+  .customBracket .bracket-column {
+    width: 100%;
+    display: -ms-flexbox;
+    display: flex;
+    -ms-flex-direction: column;
+        flex-direction: column;
+    -ms-flex-pack: space-evenly;
+        justify-content: space-evenly; }
+    @media only screen and (max-width: 600px) {
+      .customBracket .bracket-column {
+        min-width: calc(100vw - 14px); } }
+  .customBracket .bracketItem {
+    padding: 5px;
+    margin-bottom: 5px;
+    margin: 2px;
+    background: lightgray;
+    color: #fff; }
+    .customBracket .bracketItem.winner {
+      background: gray; }
+    .customBracket .bracketItem.grandWinner {
+      font-size: 2em;
+      background: red;
+      text-align: center; }

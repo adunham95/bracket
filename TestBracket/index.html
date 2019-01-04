@@ -1,0 +1,109 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Title</title>
+    <link rel="stylesheet" href="bracket.css">
+</head>
+<body>
+<div id="bracketContainer">
+
+</div>
+
+<script src="bracket.js"></script>
+<script>
+    createBracket("bracketContainer" ,[
+        {
+            id: "A",
+          sectionTitle: "Division A",
+          teams: [
+              {
+                  title: "Alpha",
+                  wins: ["won", "won", "won"]
+              },
+              {
+                  title: "Beta",
+                  wins: []
+              },
+              {
+                  title: "Charlie",
+                  wins: ["won"]
+              },
+              {
+                  title: "Delta",
+                  wins: []
+              },
+          ]
+        },
+        {
+            id: "B",
+          sectionTitle: "Division B",
+          teams: [
+              {
+                  title: "Echo",
+                  wins: ["won", "won"]
+              },
+              {
+                  title: "Foxtrot",
+                  wins: []
+              },
+              {
+                  title: "Golf",
+                  wins: ["won"]
+              },
+              {
+                  title: "Hotel",
+                  wins: []
+              },
+          ]
+        },
+        {
+            id: "C",
+            sectionTitle: "Division C",
+            teams: [
+                {
+                    title: "India",
+                    wins: ["won"]
+                },
+                {
+                    title: "Juliet",
+                    wins: []
+                },
+                {
+                    title: "Kilo",
+                    wins: ["won", "won", "won", "won"]
+                },
+                {
+                    title: "Lima",
+                    wins: []
+                },
+            ]
+        },
+        {
+            id: "D",
+            sectionTitle: "Division D",
+            teams: [
+                {
+                    title: "Mike",
+                    wins: ["won", "won"]
+                },
+                {
+                    title: "November",
+                    wins: []
+                },
+                {
+                    title: "Oscar",
+                    wins: ["won"]
+                },
+                {
+                    title: "Papa",
+                    wins: []
+                },
+            ]
+        },
+
+    ]);
+</script>
+</body>
+</html>
